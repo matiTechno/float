@@ -19,11 +19,11 @@ Leading one is implicit and not stored in the mantissa.
 (2^24 - 1) >= number will cover all manitissa bits with the integer part, fractional part
 will be cut off.
 
-2^24 number has the least significant bit cut off.
+2^24          number has the least significant bit cut off.
 That's why if we add 1 to it (2^24 - 1 + 2) the value will not change.
 
 (2^23 - 1)    number has one bit left for the fractional part. The fractional part
-can only be equal to 0.5 because this is as far as we can go with only one bit.
+can only be equal to 0.5 because this is as far as we can get with only one bit.
 
 If there is not enough bits for the required precision rounding will happen.
 
