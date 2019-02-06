@@ -2,7 +2,6 @@
 ```
 $ ./test 
 
-
 After reading http://www.egr.unlv.edu/~ed/assembly64.pdf I finally understand how
 floating-point numbers really work.
 
@@ -63,15 +62,6 @@ float + 2     = 8388609
 
 2^24 - 1
 int          = 16777215
-float         = 16777215
-float + 0.125 = 16777215
-float + 0.250 = 16777215
-float + 0.300 = 16777215
-float + 0.5   = 16777216
-float + 0.750 = 16777216
-float + 0.875 = 16777216
-float + 1     = 16777216
-float + 2     = 16777216
 float         = 16777215
 float + 0.125 = 16777215
 float + 0.250 = 16777215
