@@ -1,2 +1,2 @@
 all:
-	g++ -Wall -Wextra -g main.cpp -o main
+	g++ -std=c++14 -Wall -Wextra -g main.cpp -o test
